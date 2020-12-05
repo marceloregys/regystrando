@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <title>REGYSTRANDO</title>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<!-- Cabeçalho -->
+<body>
+<header class= "container header">
+    <div class="row">
+        <!-- Logo -->
+        <div class="col-12" header_area>
+            <div class="row">
+                <div class="col-8">
+                    <img src="imagens/logo.png" class="logo">
+                </div>
+                <div class="col-4 login_area">
+
+                </div>
+                <!-- Cidade -->
+
+                <!-- Nav -->
+                
+                <div class="col-12 col-lg-12 col-md-12 col-sm-12 menu-area">
+                    <nav class="navbar navbar-light bg-light">
+                        <ul class="menu">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://127.0.0.1:5500/#"><i class="fa fa-home"></i></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Filmes</a>
+                            <div class="dropdown-menu">
+                                <a class="Futebol-item" href="https://www.themoviedb.org/search/movie?query=a%C3%A7%C3%A3o"> Ação</a>
+                                <div class="Futebol-divider"></div>
+                                <a class="Futebol-item" href="https://www.themoviedb.org/search/movie?query=aventura"> Aventura</a>
+                                <div class="Futebol-divider"></div>
+                                <a class="Futebol-item" href="https://www.themoviedb.org/search/movie?query=comedia"> Comédia</a>
+                                <div class="Futebol-divider"></div>
+                                <a class="Futebol-item" href="https://www.themoviedb.org/search/movie?query=drama"> Drama</a>
+                                <div class="Futebol-divider"></div>
+                                <a class="Futebol-item" href="https://www.themoviedb.org/search/tv?query=romance"> Romance</a>
+                            </div>
+                            
+                            </li>
+                        </ul>
+                      </ul>
+                        <form class="form-inline">
+                          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="txtPesquisa">
+                          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" id="btnPesquisa">Search</button>
+                        </form>
+                      </nav>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<!--Principal-->
+<main class="container main"  id="tela">
+    <div class="row">
+        <div class="col-12">
+<!-- Feature Title -  Carrousel 1-->
+            <div class="row primeiro_carrousel">
+                <div class="col-12 col-sm-12 col-md-12 col-sm-12">
+                    <div id="carrousel_1" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carrousel_1" data-slide-to="0" class="active"></li>
+                            <li data-target="#carrousel_1" data-slide-to="1"></li>
+                            <li data-target="#carrousel_1" data-slide-to="2"></li>
+                            <li data-target="#carrousel_1" data-slide-to="3"></li>
+                            <li data-target="#carrousel_1" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner" id=carrossel>
+                            <div class="carousel-item active">
+                                <a href="https://www.themoviedb.org/movie/602211-fatman"><img src="img/Banner_01.jpg" class="d-block w-100"  alt="...">
+                                </a>
+                                <h3>Fatman <a href="https://www.themoviedb.org/movie/602211-fatman"></a></h3>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://www.themoviedb.org/movie/590706"><img src="img/Banner_02.jpg" class="d-block w-100"  alt="...">
+                                </a>
+                                <h3>Jiu Jitsu <a href="https://www.themoviedb.org/movie/590706"></a></h3>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://www.themoviedb.org/movie/577922"><img src="img/Banner_03.jpg" class="d-block w-100"  alt="...">
+                                </a>
+                                <h3>Tenet <a href="https://www.themoviedb.org/movie/577922"></a></h3>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://www.themoviedb.org/movie/671583"><img src="img/Banner_04.jpg" class="d-block w-100"  alt="...">
+                                </a>
+                                <h3>Magia Invertida <a href="https://www.themoviedb.org/movie/671583"></a></h3>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://www.themoviedb.org/movie/682377"><img src="img/Banner_05.jpg" class="d-block w-100"  alt="...">
+                                </a>
+                                <h3>Chick Fight<a href="https://www.themoviedb.org/movie/682377"></a></h3>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carrousel_1" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carrousel_1" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+                    
+
+<!-- Filmes-->
+                    <h4>Filmes</h4>
+                    <div class="row Esportes" id=filmes>
+                        <div class="col-12 col-sm-4 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="img/Filme_01.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">A rowdy, unorthodox Santa Claus is fighting to save his declining business. Meanwhile, Billy, a neglected and precocious 12 year old, hires a hit man to kill Santa after receiving a lump of coal in his stocking.</p>
+                                  <a href="https://www.themoviedb.org/movie/602211">Leia mais...</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="img/Filme_02.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Every six years, an ancient order of jiu-jitsu fighters joins forces to battle a vicious race of alien invaders. But when a celebrated war hero goes down in defeat, the fate of the planet and mankind hangs in the balance.</p>
+                                  <a href="https://www.themoviedb.org/movie/590706">Leia mais...</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="img/Filme_03.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.</p>
+                                  <a href="https://www.themoviedb.org/movie/577922">Leia mais...</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="img/Filme_04.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Nory and her best friend Reina enter the Sage Academy for Magical Studies, where Nory’s unconventional powers land her in a class for those with wonky, or “upside-down,” magic. Undaunted, Nory sets out to prove that that upside-down magic can be just as powerful as right-side-up.</p>
+                                  <a href="https://www.themoviedb.org/movie/671583">Leia mais...</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="img/Filme_05.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">When Anna Wyncomb is introduced to an an underground, all-female fight club in order to turn the mess of her life around, she discovers she is much more personally connected to the history of the club than she could ever imagine.</p>
+                                  <a href="https://www.themoviedb.org/movie/682377">Leia mais...</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="img/Filme_06.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">After rescuing Daniel from the terrorist Black Mask Organization, the team uncovers plans for a deadly bomb set to detonate in 36 hours that threatens world order.
+                                  </p>
+                                  <a href="https://www.themoviedb.org/movie/635780">Leia mais...</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+
+<!-- Series-->
+                    <h4>Series</h4>
+                    <div class="row Esportes" id=series>
+                        <div class="col-12 col-sm-4 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="img/Serie_01.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.</p>
+                                  <a href="https://www.themoviedb.org/tv/82856">Leia mais...</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="img/Serie_02.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">A young surgeon with Savant syndrome is recruited into the surgical unit of a prestigious hospital. The question will arise: can a person who doesn't have the ability to relate to people actually save their lives?</p>
+                                  <a href="https://www.themoviedb.org/tv/71712">Leia mais...</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="img/Serie_03.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Follows the personal and professional lives of a group of doctors at Seattle’s Grey Sloan Memorial Hospital.</p>
+                                  <a href="https://www.themoviedb.org/tv/1416">Leia mais...</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="img/Serie_04.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape.</p>
+                                  <a href="https://www.themoviedb.org/tv/63174">Leia mais...</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="img/Serie_05.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">What did the world look like as it was transforming into the horrifying apocalypse depicted in \"The Walking Dead\"? This spin-off set in Los Angeles, following new characters as they face the beginning of the end of the world, will answer that question.</p>
+                                  <a href="https://www.themoviedb.org/tv/62286">Leia mais...</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="img/Serie_06.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">In a Kentucky orphanage in the 1950s, a young girl discovers an astonishing talent for chess while struggling with addiction.</p>
+                                  <a href="https://www.themoviedb.org/tv/87739">Leia mais...</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+
+
+<!-- Rodapé -->
+<footer class="container footer">
+    <div class="row">
+        <div class="col-12">
+            <!-- Tres colunas -->
+            <!-- Coluna 1 -->
+            <div class="row">
+                <div class="col-12 col-sm-4 col-md-4 col-sm-12">
+                    <img src="imagens/logo.png" class="logo">
+                    <ul class="list-unstyled quick-links">
+                        <li>No REGYSTRANDO você encontra tudo sobre os filmes e Séries mais populares.</li>
+                    </ul>
+                </div>
+                <!-- Coluna 2 -->
+                <div class="col-12 col-sm-4 col-md-4 col-sm-12">
+                    <h5>Quick links</h5>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-6 col-sm-12">
+                            <ul class="list-unstyled quick-links">
+                                <li><a href="...">Home</a></li>
+                                <li><a href="...">About</a></li>
+                                <li><a href="...">FAQ</a></li>
+                                <li><a href="...">Get Started</a></li>
+                                <li><a href="...">Vídeos</a></li>
+                            </ul>
+                        </div>    
+                        <div class="col-12 col-sm-6 col-md-6 col-sm-12">
+                            <ul class="list-unstyled quick-links">
+                                <li><a href="...">Ação</a></li>
+                                <li><a href="...">Aventura</a></li>
+                                <li><a href="...">Biográfico</a></li>
+                                <li><a href="...">Comédia</a></li>
+                                <li><a href="...">Histórico</a></li>
+                                <li><a href="...">Drama</a></li>
+                                <li><a href="...">Ficção científica</a></li>
+                            </ul>
+                        </div>   
+                    </div>
+                </div>
+                <!-- Coluna 3 -->
+                <div class=" col-12 col-sm-4 col-md-4 col-sm-12">
+                    <h5>Nos siga no:</h5>
+                    <ul class="list-unstyled redes_sociais">
+                        <li class="list-inline-item"><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+<!-- Direitos Reservados -->
+        <div class="col-12 footer_area">    
+            © Copyright 2020 - Marcelo Regys
+        </div>
+    </div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

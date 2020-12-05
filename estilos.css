@@ -1,0 +1,142 @@
+
+.header{
+    margin-bottom: 20px;
+}
+
+.login_area{
+    margin-top: 10px;
+}
+
+.menu-area .navbar{
+    color: white;
+}
+
+.login_area button{
+    background-color: white;
+}
+
+.menu_area{
+    margin-top: 10px;
+}
+
+.header_area{
+    padding: 20px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.main h4{
+    color: rgba(35, 93, 252, 0.959);;
+}
+.main h3{
+    color: rgba(35, 93, 252, 0.959);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card-img{
+    width: 300px;
+    padding: 5px;
+}
+
+.Exclusivo h5{
+    font-size: 1.2em;
+    text-align: center;
+    color: rgb(22, 184, 22);
+}
+
+.Exclusivo p{
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+.Galeria_3x3 p{
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+.g_3{
+    margin-top: 20px;
+}
+
+.Futebol_Carrousel h5{
+    text-align: unset;
+}
+
+.Esportes p{
+    font-size: 1.0em;
+    text-align: center;
+    color:  rgb(57, 117, 247);
+}
+
+.video{
+    margin-top: 20px;
+}
+
+.Futebol_Carrousel{
+    margin-top: 20px;
+}
+
+.Galeria{
+    margin-top: 27px;
+}
+
+.primeiro_carrousel img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+.footer{
+
+    margin-top: 20px;
+}
+
+.footer_area{
+    background: rgba(35, 93, 252, 0.959);
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.footer h5{
+    color: rgb(57, 117, 247);
+}
+.footer li{
+    color: rgb(57, 117, 247);
+    text-align: justify;
+}
+.redes_sociais{
+    color: rgb(82, 88, 99);
+}
+
+
+/* Pesquisa */
+body {
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+/* Regras do Componente box-filme */
+.box-filme {
+    margin: 10px 0px;
+    overflow: auto;
+    color: dimgray;
+    clear: both;
+}
+
+.box-filme img {
+    float: left;
+    margin-right: 10px;
+    width: 180px;
+}
+
+.box-filme .titulo {
+    font-weight: 700;
+}
+
+.box-filme .creditos {
+    color: red
+}
